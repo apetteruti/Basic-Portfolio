@@ -16,27 +16,36 @@
                         <nav>
                             <ul>
                             <li class="nav">Amanda Petteruti</li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#about">Portfolio</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="./index.html">About</a></li>
+                            <li><a href="./portfolio.html">Portfolio</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
                             </ul>
                         </nav>
                 </div>
             </header>
 
         <section id="contact">
-        <h1 class="h1">Contact</h1>
-        
-        <form>
-            <label for="Name">Name</label>
-            <input type="text" id="name" name="name">
-        </form>
+            <div class ="container">
+            <h1 class="h1">Contact</h1>
+            <hr></hr>
+            
+                <form action="/action_page.php">
+                    Name:<br>
+                    <input type="text" name="Name" value="">
+                    <br><br>
+                    Email:<br>
+                    <input type="text" name="Email" value="">
+                    <br><br>
+                    Message:<br>
+                    <textarea id="subject" name="Message" value="Write Something">
+                    </textarea>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form> 
 
-        <p>Email</p>
-
-        <p>Message</p>
-
+            </div>
         </section>
+   
     <div class="push"></div>
 
     </main>
@@ -44,7 +53,7 @@
     <footer>
             <span><img src="./assets/images/copyright.svg">Copyright</span>
     </footer>
-    
+
 </body>
 
 
